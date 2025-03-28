@@ -8,7 +8,7 @@ Aluno: Thaynara Ramos*/
 
 // Função recursiva para o movimento da Torre (5 casas para a direita)
 void movimentoTorre(int i) {
-    // Caso base: parar após 5 movimentos
+    // Parar após 5 movimentos
     if (i > 5) 
     return;
     
@@ -18,7 +18,7 @@ void movimentoTorre(int i) {
 
 // Função recursiva para o movimento do Bispo (5 casas na diagonal)
 void movimentoBispo(int j, int k) {
-    // Caso base: parar após 5 movimentos
+    // Parar após 5 movimentos
     if (j > 5) 
     return;
     
@@ -32,7 +32,7 @@ void movimentoBispo(int j, int k) {
 
 // Função recursiva para o movimento da Rainha (8 casas para a esquerda)
 void movimentoRainha(int k) {
-    // Caso base: parar após 8 movimentos
+    // Parar após 8 movimentos
     if (k > 8) 
     return;
 
